@@ -6,8 +6,8 @@ Cookbook is a NodeJS REST API
 
 ```bash
 npm install
-npm run start
 docker run --name localmongo -p 27017:27017 -d mongo
+node app.js
 ```
 
 ## Usage
